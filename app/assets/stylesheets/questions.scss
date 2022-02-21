@@ -1,0 +1,61 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$primary: rgb(43, 124, 245);
+
+body {
+  font-family: Helvetica;
+  text-align: center;
+  background: rgb(70,187,252);
+  background: radial-gradient(circle, rgba(70,187,252,1) 63%, rgba(63,94,251,1) 100%);
+}
+
+#form_ask {
+  color: white;
+  text-shadow: 1px 1px 1px 10px black;
+}
+
+#submit_btn {
+  background-color: $primary;
+  border-radius: 0px 10px 10px 0px;
+  padding: 6px 15px;
+  color: white;
+  text-decoration: none;
+  box-shadow: none;
+  border-color: none;
+  border-style: none;
+  margin-left: -50px;
+}
+
+#user_input {
+  padding: 5px 15px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+#coach_img {
+  width: 180px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.chat {
+  background-color: white;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.473);
+  margin: 0 auto;
+}
+
+#ask_again a {
+  background-color: $primary;
+  width: fit-content;
+  margin: 0 auto;
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 15px;
+  &:hover {
+    background-color: #0f7bb9;
+  }
+}
